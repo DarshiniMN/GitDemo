@@ -9,7 +9,7 @@ Scenario Outline: Verify if place is being successfully added using AddPlaceAPI
     And verify place_id created maps to "<name>" using "getPlaceAPI"
 Examples:
     |name            |language |address|    
-    |maanasa gangotri|Kannada  |Mysuru |    
+    |maanasa         |Kannada  |Mysuru |    
 #    |friends  home  |French   |France |    
 @DeletePlace
 Scenario: Verify if DeletePlace functionality is working
