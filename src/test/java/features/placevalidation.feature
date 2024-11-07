@@ -8,8 +8,8 @@ Scenario Outline: Verify if place is being successfully added using AddPlaceAPI
     And "scope" in response body is "APP"
     And verify place_id created maps to "<name>" using "getPlaceAPI"
 Examples:
-    |name           |language |address|    
-    |sherlock homes |English  |London |    
+    |name            |language |address|    
+    |maanasa gangotri|Kannada  |Mysuru |    
 #    |friends  home  |French   |France |    
 @DeletePlace
 Scenario: Verify if DeletePlace functionality is working
